@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Draper and Legacy</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <style>
+
+[class*="col-"]{
+    width: 100%;
+}
+
+@media only screen and (min-width:670px) {
+    body {
+                    background-color: bisque;
+                    max-width:100%;
+                
+    }
+    .col-1{width:8.33%}
+    .col-2{width:16.66%}
+    .col-3{width:25%}
+    .col-4{width:33.33%}
+    .col-5{width:41.66%}
+    .col-6{width:50%}
+    .col-7{width:58.33%}
+    .col-8{width:66.66%}
+    .col-9{width:75%}
+    .col-10{width:83.33%}
+    .col-11{width:91.66%}
+    .col-12{width:100%}
+}
+
+ 
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(227, 184, 132);
+    align-items: center;       
+    
+}
+        .logo {
+            height: 100px; 
+          float: left;
+        }
+      .menu{
+    height: 100px;
+    float: inline-end;   
+}
+li{
+    
+    display: inline;
+  
+}
+a{
+    text-decoration: none;
+    display: inline;
+    background-color: rgb(224, 168, 101);
+    font-size:x-large;
+    justify-content: center;
+}
+#tshirt{
+    height: 500px;
+    width: 100%;
+}
+.tshirt1{
+    height: 400px;
+    width: 30%;
+    float: left;
+    margin-left: 13%;
+}
+.tshirt2{
+    height: 500px;
+    width: 30%;
+    float: inline-end;
+    margin-right: 13%;
+}
+#tshirt-1{
+    height: 500px;
+    width: 100%;
+}
+.tshirt3{
+    height: 400px;
+    width: 30%;
+    float: left;
+    margin-left: 13%;
+}
+.tshirt4{
+    height: 400px;
+    width: 30%;
+    float: inline-end;
+    margin-right: 13%;
+}
+#tshirt-2{
+    height: 500px;
+    width: 100%;
+}
+.tshirt5{
+    height: 400px;
+    width: 30%;
+    float: left;
+    margin-left: 13%;
+}
+.tshirt6{
+    height: 400px;
+    width: 30%;
+    float: inline-end;
+    margin-right: 13%;
+}
+.footer{
+    float: inline-end;
+ background-color: rgb(224, 168, 101);
+    font-size: medium;
+}
+</style>
+</head>
+<body>
+    <div id="header">
+  <div class="col-1 logo">
+    <img src="logo.png"  height="100px">
+ </div>
+  <div class="col-5 menu">
+    <ul>
+             <li><a href="home.html">HOME</a></li>
+             <li><a href="aboutus.html">ABOUT US</a></li>
+             <li><a href="services.html">SERVICES</a></li>
+             <li><a href="contactnew.html">CONTACT</a></li>
+             <li><a href="catagory.html">CATAGORY</a></li>
+    </ul>
+</div>
+    </div>
+    <br>
+
+    <div id="tshirt">
+        <div class="tshirt1" >
+        <img src="tshirt1.jpg" height="400px" width="70%">
+            <p style="margin-left: 15%;">Mens Regular T-Shirt<br>
+            Prise-₹899<br>
+        Size-<select name="size" id="size" required>
+                    <option value="">Select size</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+            <br><br>
+            </p>
+        </div>
+
+            <div class="tshirt2">
+                <img src="tshirt2.jpg" height="400px" width="70%"> 
+                <p style="margin-left: 15%;">Mens Regular T-Shirt<br>
+                      Prise-₹899<br>
+                      Size-<select name="size" id="size" required>
+                    <option value="">Select size</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+            <br><br>
+            </p>
+            </div>
+    </div>
+    <br><br><br><br>
+     <div id="tshirt-1">
+        <div class="tshirt3" >
+        <img src="tshirt3.jpg" height="400px" width="70%">
+            <p style="margin-left: 15%;">Mens Regular T-Shirt<br>
+             Prise-₹899<br>
+             Size-<select name="size" id="size" required>
+                    <option value="">Select size</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+            <br><br>
+            </p>
+        </div>
+
+            <div class="tshirt4">
+                <img src="tshirt4.jpg" height="400px" width="70%"> 
+                <p style="margin-left: 15%;">Mens Regular T-Shirt<br>
+                      Prise-₹899<br>
+                      Size-<select name="size" id="size" required>
+                    <option value="">Select size</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+            <br><br>
+            </p>
+            </div>
+    </div>
+
+    <div class="col-12 footer">
+     <h4 align="center">14-DAY FREE RETURNS</h4>
+
+<h4 align="center"> customer satisfaction is our commitment. Should you find yourself dissatisfied with your purchase,<br>
+ rest assured that we offer a 14-day return period.</h4>
+</div>
+    </body>
+    </html>
